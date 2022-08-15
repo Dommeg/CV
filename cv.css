@@ -1,27 +1,49 @@
 @font-face {
   font-family: "artifika";
-  src:url("artifika-regular-webfont.ttf") format("truetype");
+  src: url("artifika-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-    font-family: 'counter-strike';
-    src: url('/cs_regular-webfont.eot');
-    src: url('cs_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('cs_regular-webfont.woff2') format('woff2'),
-         url('cs_regular-webfont.woff') format('woff'),
-         url('/police/webfontkit-COUNTER/cs_regular-webfont.ttf') format('truetype'),
-         url('cs_regular-webfont.svg#counter-strikeregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "counter-strike";
+  src: url("/cs_regular-webfont.eot");
+  src: url("cs_regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("cs_regular-webfont.woff2") format("woff2"),
+    url("cs_regular-webfont.woff") format("woff"),
+    url("/police/webfontkit-COUNTER/cs_regular-webfont.ttf") format("truetype"),
+    url("cs_regular-webfont.svg#counter-strikeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   font-family: "artifika";
 }
-h2{
+h2,
+#name {
   font-family: "counter-strike";
 }
 
+#name {
+  font-size: 5em;
+  display: block;
+  text-align: center;
+  color: orangered;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body{
+  background: black;
+  color: aliceblue;
+}
+.navbar{
+  color: aliceblue;
+}
