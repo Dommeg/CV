@@ -62,3 +62,16 @@ a{
 a:hover{
   background-color: darkorange;
 }
+
+#coordonees{
+  display: flex;
+  flex-direction: row;
+}
+
+#contact{
+  justify-content: space-around;
+
+}
+#formation{
+  justify-content: center;
+}
