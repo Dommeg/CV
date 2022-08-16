@@ -113,7 +113,9 @@ h2[formation]{
 }
 #compétences{
   display: flex;
-
+}
+#container{
+  align-items: center;
 }
 .competences{
   flex-direction: row;
@@ -121,4 +123,16 @@ h2[formation]{
 }
 #js{
   width: 7%;
+}
+#mongo{
+  width :5%;
+}
+#sql{
+  width: 5%;
+}
+#java{
+  width: 5%;
+}
+#javafx{
+  width: 5%;
 }
