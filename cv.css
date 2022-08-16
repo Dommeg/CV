@@ -25,7 +25,7 @@ body {
   font-family: "artifika";
   background: black;
   color: aliceblue;
-  font-size: 1.25em;
+  font-size: 1.0em;
 }
 
 #CV{
@@ -43,7 +43,7 @@ body {
 }
 
 h2{
-  font-size: 2em;
+  font-size: 2em !important;
   text-align: center;
   text-decoration: underline;
 }
@@ -106,14 +106,7 @@ nav{
 h2[formation]{
   margin-bottom: 3em;
 }
-#html{
-  margin-left: 0%;
-  width: 30%;
 
-}
-#css{
-  width: 20%;
-}
 #compétences{
   display: flex;
 }
@@ -127,36 +120,50 @@ h2[formation]{
 
   justify-content: center;
 }
+#html{
+  margin-left: 0%;
+  width: 30% !important;
+
+}
+#css{
+  width: 20% !important;
+}
 #js{
-  width: 30%;
+  width: 30% !important;
 }
 #mongo{
-  width :20%;
+  width :20% !important;
 }
 #sql{
-  width: 20%;
+  width: 20% !important;
 }
 #java{
-  width: 30%;
+  width: 30% !important;
 }
 #javafx{
-  width: 40%;
+  width: 40% !important;
 }
 #construction{
   color: goldenrod;
   text-decoration: underline;
-  font-size: 2.5em;
+  font-size:100%;
   font-weight: 600;
 
 }
 #softSkills{
-  font-size: 0.5em;
+  font-size: 1em;
   font-weight: normal;
+
 }
 #container2{
-  display: flex;
-justify-content: center;
+display: flex;
 }
 #loisirs{
- font-size: 1.25em;
+  justify-content: center;
+ font-size: 1em;
+}
+#container3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
