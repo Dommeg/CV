@@ -1,3 +1,10 @@
+/*
+Ici je mets en place le plus gros du style donné à la page
+Utilisation des flexbox afin de mettre en place les divers éléments
+Impot d'unr nouvelle police d'écriture redéfinie
+Mise en forme de la navbar
+Mise en forme de l'insertion des images "fixes"*/
+
 @font-face {
   font-family: "artifika";
   src: url("artifika-regular-webfont.ttf") format("truetype");
