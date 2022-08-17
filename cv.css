@@ -1,9 +1,10 @@
 /*
-Ici je mets en place le plus gros du style donné à la page
-Utilisation des flexbox afin de mettre en place les divers éléments
-Impot d'unr nouvelle police d'écriture redéfinie
-Mise en forme de la navbar
-Mise en forme de l'insertion des images "fixes"*/
+1/ Ici je mets en place le plus gros du style donné à la page
+2/ Utilisation des flexbox afin de mettre en place les divers éléments
+3/ Impot d'unr nouvelle police d'écriture redéfinie
+4/ Mise en forme de la navbar
+5/ Mise en forme de l'insertion des images "fixes"
+*/
 
 @font-face {
   font-family: "artifika";
@@ -147,22 +148,22 @@ text-align: center;
   width: 30%;
 }
 #css{
-  width: 20% !important;
+  width: 20% ;
 }
 #js{
-  width: 30% !important;
+  width: 30% ;
 }
 #mongo{
-  width :20% !important;
+  width :20% ;
 }
 #sql{
-  width: 20% !important;
+  width: 20% ;
 }
 #java{
-  width: 30% !important;
+  width: 30% ;
 }
 #javafx{
-  width: 40% !important;
+  width: 40% ;
 }
 #construction{
   color: rgb(119, 218, 32);
